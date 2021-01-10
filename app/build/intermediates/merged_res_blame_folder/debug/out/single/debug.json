@@ -72,12 +72,12 @@
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_layout_list.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\layout_list.png"
-    },
-    {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_layout_list.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\layout_list.png"
     },
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vector8.png.flat",
@@ -106,6 +106,10 @@
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mux_bg.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\drawable\\mux_bg.png"
     },
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_layout_list.png.flat",
@@ -154,6 +158,10 @@
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_search.png.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\drawable-v24\\icon_search.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\drawable\\bg.xml"
     },
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -234,5 +242,9 @@
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX\\app\\src\\main\\res\\drawable\\bg_white.xml"
     }
 ]

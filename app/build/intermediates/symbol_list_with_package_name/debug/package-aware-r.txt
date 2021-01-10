@@ -1543,6 +1543,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg
+drawable bg_white
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1600,6 +1602,7 @@ drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable mux
 drawable mux2
+drawable mux_bg
 drawable muxbg
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -1869,7 +1872,6 @@ id mtrl_picker_title_text
 id multiply
 id music_img
 id music_imgs
-id mux_music_p
 id navigation_header_container
 id never
 id next
