@@ -7,7 +7,63 @@
     android:background="@color/white"
     tools:context=".MusicPlayerActivity">
 
+<!--    <View-->
+<!--        android:id="@+id/vector_8"-->
+<!--        android:layout_width="16dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="199dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="113dp"-->
+<!--        android:background="@drawable/vector_8"-->
+<!--        />-->
 
+<!--    <TextView-->
+<!--        android:id="@+id/playlist"-->
+<!--        android:layout_width="134dp"-->
+<!--        android:layout_height="19dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="140dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="49dp"-->
+<!--        android:text="@string/playlist"-->
+<!--        android:textAppearance="@style/playlist"-->
+<!--        android:gravity="center_horizontal|center_vertical"-->
+<!--        />-->
+
+<!--    <View-->
+<!--        android:id="@+id/vector_16"-->
+<!--        android:layout_width="341.5dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="36dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="696.5dp"-->
+<!--        android:background="@drawable/vector_16"-->
+<!--        />-->
+
+<!--    <View-->
+<!--        android:id="@+id/ellipse_28"-->
+<!--        android:layout_width="19dp"-->
+<!--        android:layout_height="18dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="200dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="649dp"-->
+<!--        android:background="@drawable/ellipse_28"-->
+<!--        />-->
+
+<!--    <View-->
+<!--        android:id="@+id/rectangle_1"-->
+<!--        android:layout_width="354dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="720dp"-->
+<!--        android:background="@drawable/rectangle_1"-->
+<!--        android:elevation="4dp"-->
+<!--        />-->
 
         <TextView
         android:paddingTop="20dp"
