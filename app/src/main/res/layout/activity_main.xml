@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".MusicPlayerActivity">
 
 <!--    <View-->
@@ -65,24 +66,30 @@
 <!--        android:elevation="4dp"-->
 <!--        />-->
 
-        <TextView
-        android:paddingTop="20dp"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NOW PLAYING"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="22sp"
-        android:textStyle="bold" />
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOW PLAYING"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="@color/primary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
     <!-- Playing_Music -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="650dp"
-        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content"
         android:background="@color/white"
-        android:orientation="vertical"
-        android:gravity="center|top">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -92,12 +99,12 @@
 
         <TextView
             android:id="@+id/tvTitle"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
             android:text="JUDUL LAGU"
             android:textAlignment="center"
-            android:gravity="center"
             android:textColor="@color/black"
             android:textSize="22sp"
             android:textStyle="bold" />
@@ -106,30 +113,28 @@
             android:id="@+id/tvArtist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="nama band"
+            android:layout_marginBottom="20dp"
             android:gravity="center"
+            android:text="nama band"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="22dp"
-            android:layout_marginBottom="20dp"/>
+            android:textSize="22dp" />
 
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:src="@drawable/mux2"
-            />
+            android:src="@drawable/mux2" />
 
         <SeekBar
             android:id="@+id/seekBarTime"
             android:layout_width="300dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:progressTint="@color/black"
-            android:progress="40"
-            android:thumbTint="@color/black"
             android:backgroundTint="#fff"
-            android:layout_height="wrap_content" />
+            android:progress="40"
+            android:progressTint="@color/black"
+            android:thumbTint="@color/black" />
 
         <RelativeLayout
             android:layout_width="300dp"
@@ -139,50 +144,48 @@
                 android:id="@+id/tvTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:text="00:00" />
+                android:text="00:00"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/tvDuration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
                 android:layout_alignParentRight="true"
-                android:text="00:00" />
+                android:text="00:00"
+                android:textColor="@color/black" />
         </RelativeLayout>
+
         <LinearLayout
-            android:layout_marginTop="20dp"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#000000"
             android:gravity="center"
-            android:background="#000000">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnPrev"
-                android:layout_marginRight="50dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/ic_baseline_skip_previous_24"
-                />
+                android:layout_marginRight="50dp"
+                android:background="@drawable/ic_baseline_skip_previous_24" />
 
             <Button
                 android:id="@+id/btnPlay"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/ic_baseline_play_circle_filled_24_white"
-                />
+                android:background="@drawable/ic_baseline_play_circle_filled_24_white" />
 
             <Button
                 android:id="@+id/btnNext"
-                android:layout_marginLeft="50dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/ic_baseline_skip_next_24"
-                />
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/ic_baseline_skip_next_24" />
 
         </LinearLayout>
 
     </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>

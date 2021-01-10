@@ -66,6 +66,7 @@
             android:background="@drawable/layout_list"
             android:cacheColorHint="#FFFFFF"
             android:elevation="4dp"
+            android:dividerHeight="10.0sp"
             />
 
 
@@ -130,7 +131,7 @@
         />
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:id="@+id/Bottom_Navigation"
         app:backgroundTint="#000000"
         app:itemTextColor="@drawable/selector"

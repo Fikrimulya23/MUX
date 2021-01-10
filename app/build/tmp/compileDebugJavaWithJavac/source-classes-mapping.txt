@@ -7,14 +7,6 @@ com/fikrimulyap/kelompok6/MusicPlayerActivity.java
  com.fikrimulyap.kelompok6.MusicPlayerActivity$2$1
 com/fikrimulyap/kelompok6/FavoritesFragment.java
  com.fikrimulyap.kelompok6.FavoritesFragment
-com/fikrimulyap/kelompok6/Song.java
- com.fikrimulyap.kelompok6.Song
-com/fikrimulyap/kelompok6/PagerAdapter.java
- com.fikrimulyap.kelompok6.PagerAdapter
-com/fikrimulyap/kelompok6/SongsFragment.java
- com.fikrimulyap.kelompok6.SongsFragment
-com/fikrimulyap/kelompok6/BuildConfig.java
- com.fikrimulyap.kelompok6.BuildConfig
 com/fikrimulyap/kelompok6/Search.java
  com.fikrimulyap.kelompok6.Search
  com.fikrimulyap.kelompok6.Search$1
@@ -23,6 +15,14 @@ com/fikrimulyap/kelompok6/Library.java
  com.fikrimulyap.kelompok6.Library
  com.fikrimulyap.kelompok6.Library$1
  com.fikrimulyap.kelompok6.Library$2
+com/fikrimulyap/kelompok6/SongsFragment.java
+ com.fikrimulyap.kelompok6.SongsFragment
+com/fikrimulyap/kelompok6/BuildConfig.java
+ com.fikrimulyap.kelompok6.BuildConfig
+com/fikrimulyap/kelompok6/Song.java
+ com.fikrimulyap.kelompok6.Song
+com/fikrimulyap/kelompok6/PagerAdapter.java
+ com.fikrimulyap.kelompok6.PagerAdapter
 com/fikrimulyap/kelompok6/MainActivity.java
  com.fikrimulyap.kelompok6.MainActivity
  com.fikrimulyap.kelompok6.MainActivity$1

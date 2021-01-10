@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kelompok6">
         <activity android:name=".Library" />
-        <activity android:name=".Search" />
+        <activity android:name=".Search"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

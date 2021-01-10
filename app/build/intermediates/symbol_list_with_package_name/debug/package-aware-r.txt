@@ -1074,6 +1074,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color primary
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1088,6 +1089,7 @@ color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
+color secondary
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -1578,6 +1580,7 @@ drawable icon_home
 drawable icon_library
 drawable icon_search
 drawable layout_list
+drawable line
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1613,6 +1616,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable playing_music
 drawable rectangle_1
+drawable search_bg
 drawable selector
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1698,6 +1702,7 @@ id always
 id animateToEnd
 id animateToStart
 id asConfigured
+id asd
 id async
 id audio_item
 id auto
@@ -1799,6 +1804,7 @@ id group_24
 id group_divider
 id grouping
 id groups
+id head
 id hideable
 id home
 id homeAsUp
@@ -1931,7 +1937,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id simpleSearchView
 id sin
 id skipCollapsed
 id slide
@@ -2261,6 +2266,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string playlist
+string search
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

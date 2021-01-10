@@ -21,7 +21,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Kelompok6" >
         <activity android:name="com.fikrimulyap.kelompok6.Library" />
-        <activity android:name="com.fikrimulyap.kelompok6.Search" />
+        <activity
+            android:name="com.fikrimulyap.kelompok6.Search"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
         <activity android:name="com.fikrimulyap.kelompok6.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
