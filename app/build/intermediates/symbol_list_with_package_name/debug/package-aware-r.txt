@@ -1543,6 +1543,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
+drawable background_play
+drawable background_play2
 drawable bg
 drawable bg_white
 drawable btn_checkbox_checked_mtrl
@@ -1553,6 +1556,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable buttonblack
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1560,7 +1564,10 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ellipse_28
+drawable favorite
+drawable favorite_on
 drawable field_song
+drawable group_24
 drawable ic_about
 drawable ic_baseline_pause_24
 drawable ic_baseline_pause_circle_filled_24_white
@@ -1577,10 +1584,14 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_next
+drawable ic_play
+drawable ic_prev
 drawable ic_search
 drawable icon_home
 drawable icon_library
 drawable icon_search
+drawable intersect
 drawable layout_list
 drawable line
 drawable material_ic_calendar_black_24dp
@@ -1618,14 +1629,25 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable playing_music
+drawable progress_song
+drawable rectangle17
 drawable rectangle_1
+drawable repeat
+drawable repeat_on
 drawable search_bg
 drawable selector
+drawable shuffle
+drawable shuffle_on
+drawable splash_screen
+drawable splash_screenlogo
+drawable splash_screentext
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vector16
 drawable vector8
 drawable vector_16
+font astrospace_font
 font casanova_scotia
 font roboto
 id ALT
@@ -1712,6 +1734,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1719,9 +1742,12 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnFavorite
 id btnNext
 id btnPlay
 id btnPrev
+id btnRepeat
+id btnShuffle
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1872,6 +1898,7 @@ id mtrl_picker_title_text
 id multiply
 id music_img
 id music_imgs
+id muxkaset
 id navigation_header_container
 id never
 id next
@@ -1902,6 +1929,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id progress_song
 id radio
 id ratio
 id rectangles
@@ -2097,6 +2125,7 @@ layout activity_home
 layout activity_library
 layout activity_main
 layout activity_search
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2268,7 +2297,6 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string playlist
 string search
 string search_menu_title
 string status_bar_notification_info_overflow
@@ -2970,8 +2998,8 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
-style mux_music_p
-style playlist
+style me_too
+style meghan_tain
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

@@ -5,9 +5,8 @@
     android:id="@+id/menu_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#060445"
+    android:background="@color/secondary"
     tools:context=".MainActivity">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,11 +16,11 @@
         <View
             android:id="@+id/group_24"
             android:layout_width="fill_parent"
-            android:layout_height="350dp"
+            android:layout_height="400dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/mux_bg"
-            />
+
+            android:background="@drawable/group_24" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +28,7 @@
             android:background="@drawable/bg">
 
             <View
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
                 android:layout_gravity="center"
                 android:layout_width="18dp"

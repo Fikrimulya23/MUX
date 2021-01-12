@@ -1,5 +1,6 @@
 package com.fikrimulyap.kelompok6;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,7 +28,8 @@ public class MusicPlayerActivity extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Song song = (Song) getIntent().getSerializableExtra("song");
 
@@ -42,6 +45,8 @@ public class MusicPlayerActivity extends AppCompatActivity implements View.OnCli
         tvTitle.setText(song.getTitle());
         tvArtist.setText(song.getArtist());
 
+        Button back  = (Button) findViewById(R.id.back);
+
         musicPlayer = new MediaPlayer();
         try {
             musicPlayer.setDataSource(song.getPath());
@@ -54,6 +59,13 @@ public class MusicPlayerActivity extends AppCompatActivity implements View.OnCli
 
         String duration = millisecondsToString(musicPlayer.getDuration());
         tvDuration.setText(duration);
+
+//        musicPlayer.stop();
+        if (musicPlayer.isPlaying()) {
+            musicPlayer.stop();
+        }
+        musicPlayer.start();
+        btnPlay.setBackgroundResource(R.drawable.ic_baseline_pause_circle_filled_24_white);
 
         btnPlay.setOnClickListener(this);
 
@@ -77,6 +89,24 @@ public class MusicPlayerActivity extends AppCompatActivity implements View.OnCli
 
             }
         });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                startActivity(new Intent(MusicPlayerActivity.this, MainActivity.class));
+                finish();
+
+                //menggunakan intent untuk berpindah ke activity sebelumnya
+            }
+        });
+
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public  void onClick(View v) {
+
+            }
+        });
+
 
         new Thread(new Runnable() {
             @Override
@@ -141,4 +171,6 @@ public class MusicPlayerActivity extends AppCompatActivity implements View.OnCli
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 }
