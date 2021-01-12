@@ -1594,6 +1594,7 @@ drawable icon_search
 drawable intersect
 drawable layout_list
 drawable line
+drawable logo_mux
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1615,6 +1616,7 @@ drawable mux
 drawable mux2
 drawable mux_bg
 drawable muxbg
+drawable name_mux
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1638,9 +1640,6 @@ drawable search_bg
 drawable selector
 drawable shuffle
 drawable shuffle_on
-drawable splash_screen
-drawable splash_screenlogo
-drawable splash_screentext
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

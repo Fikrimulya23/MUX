@@ -1,342 +1,338 @@
 [
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shuffle_on.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\shuffle_on.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_library.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\icon_library.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_layout_list.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\layout_list.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_songs.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\fragment_songs.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_home.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\menu_home.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\font_casanova_scotia.otf.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\font\\casanova_scotia.otf"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_about.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_play.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\ic_play.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_layout_list.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\layout_list.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_muxbg.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\muxbg.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\line.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mux.jpg.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\mux.jpg"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_layout_list.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\layout_list.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_intersect.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\intersect.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_library.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\icon_library.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\raw_bensoundukulele.mp3.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\raw\\bensoundukulele.mp3"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ellipse_28.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ellipse_28.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_search.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mux.jpg.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\mux.jpg"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\font_astrospace_font.otf.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\font\\astrospace_font.otf"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_bg.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\search_bg.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_play2.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\background_play2.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_layout_list.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\layout_list.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mux_bg.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\mux_bg.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_prev.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\ic_prev.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_favorite_on.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\favorite_on.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_skip_previous_24.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_baseline_skip_previous_24.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo_mux.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\logo_mux.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_play_circle_filled_24_white.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_baseline_play_circle_filled_24_white.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rectangle17.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\rectangle17.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_home.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_repeat_on.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\repeat_on.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_buttonblack.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\buttonblack.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_back.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\back.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ellipse_28.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ellipse_28.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_skip_next_24.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_baseline_skip_next_24.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\line.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_layout_list.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\layout_list.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_layout_list.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\layout_list.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vector_16.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\vector_16.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_favorite.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\favorite.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_field_song.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\field_song.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_group_24.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\group_24.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_skip_next_24.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_baseline_skip_next_24.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_home.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\icon_home.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_play_circle_filled_24_white.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_baseline_play_circle_filled_24_white.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_song.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\item_song.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playing_music.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\playing_music.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_repeat.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\repeat.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_next.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\ic_next.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shuffle.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\shuffle.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_splash_screen.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\splash_screen.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\bg_white.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_play.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\background_play.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\bg.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_library.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\activity_library.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_navigation.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\menu\\menu_navigation.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_bensoundukulele.mp3.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\raw\\bensoundukulele.mp3"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_name_mux.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\name_mux.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_repeat_on.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\repeat_on.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\font_astrospace_font.otf.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\font\\astrospace_font.otf"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_navigation.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\menu\\menu_navigation.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mux_bg.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\mux_bg.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_layout_list.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\layout_list.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_pause_circle_filled_24_white.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_baseline_pause_circle_filled_24_white.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\activity_search.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_layout_list.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\layout_list.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_layout_list.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\layout_list.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_songs.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\fragment_songs.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_bg.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\search_bg.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_muxbg.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\muxbg.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_play_arrow_24.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_baseline_play_arrow_24.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_search.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_home.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\menu_home.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\bg_white.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_next.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\ic_next.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_splash_screentext.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\splash_screentext.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\selector.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\font_casanova_scotia.otf.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\font\\casanova_scotia.otf"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_library.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\activity_library.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\font\\roboto.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_favorite_on.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\favorite_on.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_library.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\ic_library.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_skip_previous_24.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_baseline_skip_previous_24.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_splash_screenlogo.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\splash_screenlogo.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_remove_24.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_baseline_remove_24.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vector_16.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\vector_16.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_buttonblack.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\buttonblack.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rectangle17.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\rectangle17.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mux2.jpg.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\mux2.jpg"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_play_arrow_24.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_baseline_play_arrow_24.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_favorite.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\favorite.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\bg.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shuffle.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\shuffle.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorites.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\fragment_favorites.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favorites.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\fragment_favorites.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_repeat.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\repeat.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_about.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_layout_list.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\layout_list.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_group_24.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\group_24.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_prev.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\ic_prev.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\font\\roboto.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_play2.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\background_play2.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_field_song.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\field_song.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_layout_list.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\layout_list.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_pause_circle_filled_24_white.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_baseline_pause_circle_filled_24_white.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_play.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\background_play.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_intersect.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\intersect.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_pause_24.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_baseline_pause_24.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_pause_24.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_baseline_pause_24.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_home.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\icon_home.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_search.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\icon_search.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shuffle_on.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\shuffle_on.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_remove_24.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\ic_baseline_remove_24.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_1.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\rectangle_1.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon_search.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\icon_search.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_progress_song.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\progress_song.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vector16.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\vector16.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_1.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\rectangle_1.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vector8.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\vector8.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\selector.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_layout_list.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\layout_list.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vector16.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\vector16.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_layout_list.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\layout_list.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_library.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\ic_library.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vector8.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\vector8.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_layout_list.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\layout_list.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_play.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\ic_play.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_back.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\back.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_progress_song.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\progress_song.png"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mux2.jpg.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable-v24\\mux2.jpg"
-    },
-    {
-        "merged": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playing_music.xml.flat",
-        "source": "D:\\Android_Studio_Project\\MUXPlayer-master\\app\\src\\main\\res\\drawable\\playing_music.xml"
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_song.xml.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\layout\\item_song.xml"
     }
 ]
