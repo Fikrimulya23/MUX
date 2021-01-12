@@ -8,20 +8,6 @@
     tools:context=".MainActivity"
     android:background="#1A1A1A">
 
-
-    <TextView
-        android:id="@+id/mux_music_p"
-        android:layout_width="197dp"
-        android:layout_height="56dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="152dp"
-        android:text="@string/mux_music_p"
-        android:textAppearance="@style/mux_music_p"
-        android:gravity="top"
-        />
-
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -30,10 +16,10 @@
         <View
             android:id="@+id/group_24"
             android:layout_width="fill_parent"
-            android:layout_height="350dp"
+            android:layout_height="400dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/muxbg"
+            android:background="@drawable/group_24"
             />
 
         <View

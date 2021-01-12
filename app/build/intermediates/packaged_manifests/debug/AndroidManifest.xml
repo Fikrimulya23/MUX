@@ -22,14 +22,17 @@
         android:theme="@style/Theme.Kelompok6" >
         <activity android:name="com.fikrimulyap.kelompok6.Library" />
         <activity android:name="com.fikrimulyap.kelompok6.Search" />
-        <activity android:name="com.fikrimulyap.kelompok6.MainActivity" >
+        <activity android:name="com.fikrimulyap.kelompok6.MainActivity" />
+        <activity android:name="com.fikrimulyap.kelompok6.MusicPlayerActivity" />
+        <activity
+            android:name="com.fikrimulyap.kelompok6.SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.fikrimulyap.kelompok6.MusicPlayerActivity" />
     </application>
 
 </manifest>

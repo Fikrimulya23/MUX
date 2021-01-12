@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
+    private int loading = 3000;
 
     private static final int REQUEST_PERMISSION = 99;
 

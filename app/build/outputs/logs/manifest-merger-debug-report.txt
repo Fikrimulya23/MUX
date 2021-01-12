@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\ec4dd897d4037390d3cac18fc3984d5c\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\b988cdf40af7cdf3e0317011f8e5bfe7\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\a527ad4f532df6b258c428a911debd89\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -43,29 +43,29 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fikri mulya p
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\af090a78eaea8296976d6555a3a135f2\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\4277c449ae4e7defb11901a027a49277\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\01339aeadc2379d14234ec1725fb1d1d\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:6:22-77
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:5:22-77
 application
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:7:5-26:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\ec4dd897d4037390d3cac18fc3984d5c\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\ec4dd897d4037390d3cac18fc3984d5c\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\fikri mulya permana\.gradle\caches\transforms-2\files-2.1\b988cdf40af7cdf3e0317011f8e5bfe7\material-1.2.1\AndroidManifest.xml:22:5-20
@@ -99,23 +99,29 @@ ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManife
 	android:name
 		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:15:19-41
 activity#com.fikrimulyap.kelompok6.MainActivity
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:16:9-59
 	android:name
 		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:16:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:17:13-21:29
-action#android.intent.action.MAIN
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:17-69
-	android:name
-		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:20:17-77
-	android:name
-		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.fikrimulyap.kelompok6.MusicPlayerActivity
-ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:23:9-57
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:17:9-57
 	android:name
-		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:23:19-54
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:17:19-54
+activity#com.fikrimulyap.kelompok6.SplashScreen
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:9-25:20
+	android:theme
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:19:13-63
+	android:name
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml
