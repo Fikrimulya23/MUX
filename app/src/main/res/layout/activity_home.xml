@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/menu_home"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    tools:context=".MainActivity"
-    android:background="#1A1A1A">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary"
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <View
@@ -19,40 +19,50 @@
             android:layout_height="400dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/group_24"
-            />
 
-        <View
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:layout_gravity="center"
-            android:layout_width="18dp"
-            android:layout_height="2dp"
-            android:background="@drawable/vector8" />
-
-        <TextView
-            android:layout_width="wrap_content"
+            android:background="@drawable/group_24" />
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="PLAYLIST"
-            android:textSize="15dp"
-            android:textColor="@color/white"
-            android:fontFamily="@font/roboto"
-            android:shadowColor="#000000"
-            android:shadowDy="4"
-            android:shadowRadius="4"
-            />
+            android:orientation="vertical"
+            android:background="@drawable/bg">
 
-        <ListView
-            android:id="@+id/lvSongs"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/layout_list"
-            android:cacheColorHint="#FFFFFF"
-            android:elevation="4dp"
-            />
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:layout_width="18dp"
+                android:layout_height="2dp"
+                android:background="@drawable/vector8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="PLAYLIST"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:shadowColor="#000000"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:paddingStart="30dp"
+                android:paddingBottom="10dp"
+                />
+
+            <ListView
+                android:id="@+id/lvSongs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:cacheColorHint="#FFFFFF"
+                android:elevation="4dp"
+                android:divider="#00FFFFFF"
+                android:dividerHeight="10.0sp"
+                />
+        </LinearLayout>
+
 
 
 
@@ -116,7 +126,7 @@
         />
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:id="@+id/Bottom_Navigation"
         app:backgroundTint="#000000"
         app:itemTextColor="@drawable/selector"

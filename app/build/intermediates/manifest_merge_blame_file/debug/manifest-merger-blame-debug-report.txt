@@ -15,7 +15,7 @@
 11-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:5:22-77
 12
 13    <application
-13-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:7:5-26:19
+13-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:7:5-27:19
 14        android:allowBackup="true"
 14-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,34 +33,31 @@
 22        android:theme="@style/Theme.Kelompok6" >
 22-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:13:9-47
 23        <activity android:name="com.fikrimulyap.kelompok6.Library" />
-23-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:14:9-45
-23-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:14:19-42
+23-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:15:9-45
+23-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:15:19-42
 24        <activity android:name="com.fikrimulyap.kelompok6.Search" />
-24-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:15:9-44
-24-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:15:19-41
+24-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:16:9-44
+24-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:16:19-41
 25        <activity android:name="com.fikrimulyap.kelompok6.MainActivity" />
-25-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:16:9-59
-25-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:16:19-47
+25-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:17:9-59
+25-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:17:19-47
 26        <activity android:name="com.fikrimulyap.kelompok6.MusicPlayerActivity" />
-26-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:17:9-57
-26-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:17:19-54
-27        <activity
-27-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:9-25:20
-28            android:name="com.fikrimulyap.kelompok6.SplashScreen"
-28-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:19-47
-29            android:theme="@style/Theme.AppCompat.NoActionBar" >
-29-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:19:13-63
-30            <intent-filter>
-30-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:20:13-24:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:21:17-69
-31-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:21:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:23:17-77
-33-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:23:27-74
-34            </intent-filter>
-35        </activity>
-36    </application>
-37
-38</manifest>
+26-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:9-57
+26-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:18:19-54
+27        <activity android:name="com.fikrimulyap.kelompok6.SplashScreen" >
+27-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:19:9-26:20
+27-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:19:19-47
+28            <intent-filter>
+28-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:21:13-25:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:22:17-69
+29-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:22:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:24:17-77
+31-->D:\Android_Studio_Project\MUXPlayer-master\app\src\main\AndroidManifest.xml:24:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

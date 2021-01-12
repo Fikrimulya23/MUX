@@ -24,9 +24,7 @@
         <activity android:name="com.fikrimulyap.kelompok6.Search" />
         <activity android:name="com.fikrimulyap.kelompok6.MainActivity" />
         <activity android:name="com.fikrimulyap.kelompok6.MusicPlayerActivity" />
-        <activity
-            android:name="com.fikrimulyap.kelompok6.SplashScreen"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity android:name="com.fikrimulyap.kelompok6.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
