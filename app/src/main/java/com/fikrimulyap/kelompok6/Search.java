@@ -11,7 +11,9 @@ import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.SearchView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +25,7 @@ import java.util.ArrayList;
 
 //import android.support.v7.app.AppCompatActivity;
 
-public class Search extends AppCompatActivity {
+public class Search extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
 
 
@@ -32,6 +34,8 @@ public class Search extends AppCompatActivity {
     ArrayList<Song> songArrayList;
     ListView lvSongs;
     SongsAdapter songsAdapter;
+//    SearchView search_view;
+//    ArrayAdapter<Song> adapter;
 
 
     @Override
@@ -44,9 +48,14 @@ public class Search extends AppCompatActivity {
         lvSongs = findViewById(R.id.lvSongs);
 
         songArrayList = new ArrayList<>();
-
+//        search_view = (SearchView) findViewById(R.id.search_view);
         songsAdapter = new SongsAdapter(this, songArrayList);
+
+//        adapter = new ArrayAdapter<Song>(getApplicationContext(),
+//                R.layout.item_song, R.id.tvTitle, songArrayList);
+
         lvSongs.setAdapter(songsAdapter);
+//        search_view.setOnQueryTextListener(this);
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, REQUEST_PERMISSION);
@@ -96,6 +105,22 @@ public class Search extends AppCompatActivity {
                 return false;
             }
         });
+    }
+//there
+//    @Override
+//    public boolean onQueryTextChange(String newText){
+//        adapter.getFilter().filter(newText);
+//        return false;
+//    }
+//there
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
+        return false;
     }
 
     @Override

@@ -1931,6 +1931,7 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
+id search_view
 id search_voice_btn
 id seekBarTime
 id select_dialog_listview
