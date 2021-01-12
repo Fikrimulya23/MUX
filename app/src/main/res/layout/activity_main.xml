@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/background_play2"
     tools:context=".MusicPlayerActivity">
@@ -200,8 +200,8 @@
 
     <Button
         android:id="@+id/btnPrev"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="90dp"
@@ -210,8 +210,8 @@
 
     <Button
         android:id="@+id/btnNext"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="90dp"
@@ -220,12 +220,12 @@
 
     <Button
         android:id="@+id/btnPlay"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="49dp"
-        android:background="@drawable/ic_baseline_play_circle_filled_24_white"/>
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/ic_baseline_play_circle_filled_24_white" />
 
     <Button
         android:id="@+id/btnShuffle"
@@ -261,6 +261,8 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/mux"
         />
 
@@ -268,6 +270,8 @@
         android:id="@+id/progress_song"
         android:layout_width="240dp"
         android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/progress_song"
         android:layout_centerInParent="true"/>
 
@@ -283,7 +287,7 @@
         android:fontFamily="@font/astrospace_font"
         android:text="me_too"
         android:textAppearance="@style/me_too"
-        android:textSize="20dp"
+        android:textSize="18sp"
         android:textAlignment="center"
         android:textStyle="bold" />
 
@@ -298,7 +302,7 @@
         android:fontFamily="@font/astrospace_font"
         android:text="meghan_tain"
         android:textAppearance="@style/meghan_tain"
-        android:textSize="13dp"
+        android:textSize="18sp"
         android:textAlignment="center" />
 
     <SeekBar
@@ -306,10 +310,11 @@
         android:layout_width="fill_parent"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="40dp"
-        android:progressTint="@color/black"
+        android:progressTint="@color/main_bar_active"
         android:progress="40"
-        android:thumbTint="@color/black"
-        android:backgroundTint="#fff"
+        android:thumbTint="@color/main_bar_active"
+        android:progressBackgroundTint="@color/main_bar_no_active"
+        android:backgroundTint="@color/main_bar_no_active"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="140dp"
@@ -319,13 +324,13 @@
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
+        android:textColor="@color/secondary"
         android:fontFamily="@font/roboto"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="40dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="155dp"
-        android:textSize="20dp"
+        android:textSize="15sp"
         android:text="00:00"
         android:textStyle="bold"/>
 
@@ -333,18 +338,18 @@
         android:id="@+id/tvDuration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
+        android:textColor="@color/secondary"
         android:fontFamily="@font/roboto"
         android:layout_alignParentRight="true"
         android:layout_marginRight="40dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="155dp"
-        android:textSize="20dp"
+        android:textSize="15sp"
         android:text="00:00"
         android:textStyle="bold"/>
 
     <ImageView
-        android:layout_width="fill_parent"
+        android:layout_width="354dp"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp"

@@ -16,12 +16,12 @@
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\ic_play.png"
     },
     {
-        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_muxbg.png.flat",
-        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\muxbg.png"
-    },
-    {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mux.jpg.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\mux.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_muxbg.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\muxbg.png"
     },
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_intersect.png.flat",
@@ -162,6 +162,10 @@
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
         "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_song.png.flat",
+        "source": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\src\\main\\res\\drawable-v24\\song.png"
     },
     {
         "merged": "C:\\Users\\asus\\AndroidStudioProjects\\MUX2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
