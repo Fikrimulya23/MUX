@@ -1594,8 +1594,8 @@ drawable ic_play
 drawable ic_prev
 drawable ic_search
 drawable icon_home
-drawable icon_library
 drawable icon_search
+drawable icon_settings
 drawable intersect
 drawable layout_list
 drawable line
@@ -1859,7 +1859,6 @@ id labeled
 id largeLabel
 id layout
 id left
-id library
 id line1
 id line3
 id linear
@@ -1969,6 +1968,7 @@ id search_voice_btn
 id seekBarTime
 id select_dialog_listview
 id selected
+id settings
 id shortcut
 id showCustom
 id showHome
@@ -2044,7 +2044,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvArtist
 id tvTitle
 id unchecked
 id uniform
@@ -2295,6 +2294,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string playlist
 string search
 string search_menu_title
 string status_bar_notification_info_overflow

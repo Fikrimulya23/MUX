@@ -8,5 +8,6 @@
 MUX \nMusic Player
 </string>
     <string name="search">SEARCH</string>
+    <string name="playlist">PLAYLIST</string>
 
 </resources>

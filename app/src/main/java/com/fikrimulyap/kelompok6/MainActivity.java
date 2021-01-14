@@ -1,15 +1,9 @@
 package com.fikrimulyap.kelompok6;
 
 import android.Manifest;
-import android.content.ContentResolver;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.database.Cursor;
-import android.media.MediaPlayer;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -18,11 +12,8 @@ import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.tabs.TabLayout;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
@@ -43,16 +34,19 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<File> musics;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
         // casting listview
+//        MyListAdapter adapter = new MyListAdapter(this, songs);
+
         allMusicList = findViewById(R.id.listView);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.Bottom_Navigation);
-
+        ArrayList<Music> musicList = new ArrayList<>();
         //set home selected
         bottomNavigationView.setSelectedItemId(R.id.home);
 
@@ -72,9 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
                         return true;
 
-                    case R.id.library:
+                    case R.id.settings:
                         startActivity(new Intent(getApplicationContext(),
-                                Library.class));
+                                SettingActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                 }
@@ -94,13 +88,17 @@ public class MainActivity extends AppCompatActivity {
                 songs = new String[musics.size()];
                 for (int i = 0; i < musics.size(); i++) {
                     songs[i] = musics.get(i).getName();
+                    musicList.add(new Music(songs[i]));
                 }
+                MyListAdapter adapter = new MyListAdapter(getApplicationContext(),musicList);
 
                 // here you are passing songs in the adapter;
-                musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, songs);
+                musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_activated_1, songs);
                 //setting the adapter on listview
 
-                allMusicList.setAdapter(musicArrayAdapter);
+//                allMusicList.setAdapter(musicArrayAdapter);
+
+                allMusicList.setAdapter(adapter);
 
                 allMusicList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override

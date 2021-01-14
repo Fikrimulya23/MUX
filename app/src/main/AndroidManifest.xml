@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kelompok6">
 
-        <activity android:name=".Library" />
+        <activity android:name=".SettingActivity" />
         <activity android:name=".Search" />
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".MusicPlayerActivity" />

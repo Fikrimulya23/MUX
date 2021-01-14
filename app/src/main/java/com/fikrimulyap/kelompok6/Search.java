@@ -1,14 +1,9 @@
 package com.fikrimulyap.kelompok6;
 
 import android.Manifest;
-import android.content.ContentResolver;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.database.Cursor;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -18,7 +13,6 @@ import android.widget.SearchView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.karumi.dexter.Dexter;
@@ -50,7 +44,7 @@ public class Search extends AppCompatActivity {
         allMusicList = findViewById(R.id.listView);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.Bottom_Navigation);
-
+        ArrayList<Music> musicList = new ArrayList<>();
         //set home selected
         bottomNavigationView.setSelectedItemId(R.id.search);
 
@@ -69,9 +63,9 @@ public class Search extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.library:
+                    case R.id.settings:
                         startActivity(new Intent(getApplicationContext(),
-                                Library.class));
+                                SettingActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                 }
@@ -90,13 +84,16 @@ public class Search extends AppCompatActivity {
                 songs = new String[musics.size()];
                 for (int i = 0; i < musics.size(); i++) {
                     songs[i] = musics.get(i).getName();
+                    musicList.add(new Music(songs[i]));
                 }
+                MyListAdapter adapter = new MyListAdapter(getApplicationContext(),musicList);
 
                 // here you are passing songs in the adapter;
                 musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, songs);
                 //setting the adapter on listview
 
-                allMusicList.setAdapter(musicArrayAdapter);
+//                allMusicList.setAdapter(musicArrayAdapter);
+                allMusicList.setAdapter(adapter);
 
                 allMusicList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override

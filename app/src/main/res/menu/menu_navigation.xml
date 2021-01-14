@@ -12,7 +12,7 @@
         android:icon="@drawable/icon_search" />
 
     <item
-        android:id="@+id/library"
-        android:title="Library"
-        android:icon="@drawable/icon_library" />
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/icon_settings" />
 </menu>
