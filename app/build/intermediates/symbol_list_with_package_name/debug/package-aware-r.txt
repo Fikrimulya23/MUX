@@ -1550,6 +1550,7 @@ drawable back
 drawable background_play
 drawable background_play2
 drawable bg
+drawable bg_list_view_home
 drawable bg_white
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1582,6 +1583,7 @@ drawable ic_baseline_skip_previous_24
 drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_launcher_mux_background
 drawable ic_library
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -1737,7 +1739,6 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1751,6 +1752,7 @@ id btnPlay
 id btnPrev
 id btnRepeat
 id btnShuffle
+id btnback
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1862,8 +1864,8 @@ id line1
 id line3
 id linear
 id listMode
+id listView
 id list_item
-id lvSongs
 id masked
 id media_actions
 id menu_home
@@ -1999,10 +2001,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id tabBar
-id tabFavorite
 id tabMode
-id tabSongs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2021,8 +2020,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
-id textView2
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2048,15 +2045,12 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvArtist
-id tvDuration
-id tvTime
 id tvTitle
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
-id viewPager
 id view_offset_helper
 id visible
 id withText
@@ -2145,8 +2139,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_favorites
-layout fragment_songs
 layout item_song
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2211,6 +2203,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu menu_navigation
 mipmap ic_launcher
+mipmap ic_launcher_mux
+mipmap ic_launcher_mux_foreground
+mipmap ic_launcher_mux_round
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw bensoundukulele
@@ -2530,6 +2525,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style Dexter_Internal_Theme_Transparent
 style EmptyTheme
 style MaterialAlertDialog_MaterialComponents
 style MaterialAlertDialog_MaterialComponents_Body_Text

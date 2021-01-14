@@ -4,14 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/black"
     tools:context=".Library">
 
-    <ListView
-        android:id="@+id/lvSongs"
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg" />
+    <TextView
+        android:text="Library"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/tabBar" />
+        android:layout_height="match_parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="fill_parent"
@@ -20,35 +27,7 @@
         app:backgroundTint="@color/bg_main_bar"
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
-        android:paddingBottom="-10dp"
         app:menu="@menu/menu_navigation"
         android:layout_alignParentBottom="true" />
-
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/primary"
-        app:tabTextColor="@color/white">
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tabSongs"
-            android:text="Songs" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tabFavorite"
-            android:text="Favorites" />
-
-    </com.google.android.material.tabs.TabLayout>
-
-    <androidx.viewpager.widget.ViewPager
-
-        android:id="@+id/viewPager"
-        android:layout_width="0dp"
-        android:layout_height="0dp" />
 
 </RelativeLayout>

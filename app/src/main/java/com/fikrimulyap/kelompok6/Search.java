@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,23 +21,24 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.karumi.dexter.Dexter;
+import com.karumi.dexter.PermissionToken;
+import com.karumi.dexter.listener.PermissionDeniedResponse;
+import com.karumi.dexter.listener.PermissionGrantedResponse;
+import com.karumi.dexter.listener.PermissionRequest;
+import com.karumi.dexter.listener.single.PermissionListener;
 
+import java.io.File;
 import java.util.ArrayList;
 
 //import android.support.v7.app.AppCompatActivity;
 
-public class Search extends AppCompatActivity implements SearchView.OnQueryTextListener
-{
+public class Search extends AppCompatActivity {
 
-
-
-    private static final int REQUEST_PERMISSION = 99;
-
-    ArrayList<Song> songArrayList;
-    ListView lvSongs;
-    SongsAdapter songsAdapter;
-    SearchView search_view;
-//    ArrayAdapter<Song> adapter;
+    ListView allMusicList; // listVIEW
+    ArrayAdapter<String> musicArrayAdapter; // Adapter for music list
+    String songs[]; // to storage song names;
+    ArrayList<File> musics;
 
 
     @Override
@@ -44,43 +46,9 @@ public class Search extends AppCompatActivity implements SearchView.OnQueryTextL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
+        // casting listview
+        allMusicList = findViewById(R.id.listView);
 
-
-        lvSongs = findViewById(R.id.lvSongs);
-
-        songArrayList = new ArrayList<>();
-
-//        ++
-        search_view = (SearchView) findViewById(R.id.search_view);
-
-        songsAdapter = new SongsAdapter(this, songArrayList);
-
-//        adapter = new ArrayAdapter<Song>(getApplicationContext(),
-//                R.layout.item_song, R.id.tvTitle, songArrayList);
-
-
-        lvSongs.setAdapter(songsAdapter);
-//        ++
-        search_view.setOnQueryTextListener(this);
-
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, REQUEST_PERMISSION);
-            return;
-        } else {
-            getSongs();
-        }
-        lvSongs.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                Song song = songArrayList.get(position);
-                Intent openMusicPlayer = new Intent(Search.this,MusicPlayerActivity.class);
-                openMusicPlayer.putExtra("song", song);
-                startActivity(openMusicPlayer);
-            }
-        });
-
-        //initialize and assign variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.Bottom_Navigation);
 
         //set home selected
@@ -111,48 +79,73 @@ public class Search extends AppCompatActivity implements SearchView.OnQueryTextL
                 return false;
             }
         });
-    }
-//++
-    @Override
-    public boolean onQueryTextChange(String newText){
-        songsAdapter.getFilter().filter(newText);
-        return false;
-    }
-//++
-    @Override
-    public boolean onQueryTextSubmit(String query) {
-        return false;
-    }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        if (requestCode == REQUEST_PERMISSION) {
-            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                getSongs();
+        // working on dexter permission
+        Dexter.withActivity(this).withPermission(Manifest.permission.READ_EXTERNAL_STORAGE).withListener(new PermissionListener() {
+            @Override
+            public void onPermissionGranted(PermissionGrantedResponse permissionGrantedResponse) {
+                // display music files on storage
+
+                musics = findMusicFiles(Environment.getExternalStorageDirectory());
+                songs = new String[musics.size()];
+                for (int i = 0; i < musics.size(); i++) {
+                    songs[i] = musics.get(i).getName();
+                }
+
+                // here you are passing songs in the adapter;
+                musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, songs);
+                //setting the adapter on listview
+
+                allMusicList.setAdapter(musicArrayAdapter);
+
+                allMusicList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        // passing the intent to the playeractivity
+
+                        startActivity(new Intent(Search.this, MusicPlayerActivity.class)
+
+                                // we are storing all the songs in the key songlist
+                                // we are storing the position of songs in key position
+                                .putExtra("songsList", musics)
+                                .putExtra("position", position));
+                    }
+                });
+
+            }
+
+            @Override
+            public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
+
+            }
+
+            @Override
+            public void onPermissionRationaleShouldBeShown(PermissionRequest permissionRequest, PermissionToken permissionToken) {
+                // asking for permission
+
+                permissionToken.continuePermissionRequest();
+
+            }
+        }).check();
+
+    }
+// creating an arraylist for music files available on sotrage
+
+    private ArrayList<File> findMusicFiles(File file) {
+        ArrayList<File> musicfileobject = new ArrayList<>();
+        File[] files = file.listFiles();
+
+        for (File currentFiles : files) {
+
+            if (currentFiles.isDirectory() && !currentFiles.isHidden()) {
+                musicfileobject.addAll(findMusicFiles(currentFiles));
+            } else {
+                if (currentFiles.getName().endsWith(".mp3") || currentFiles.getName().endsWith(".mp4a") || currentFiles.getName().endsWith(".wav")) {
+                    musicfileobject.add(currentFiles);
+                }
             }
         }
-    }
 
-    private void getSongs() {
-
-        ContentResolver contentResolver = getContentResolver();
-        Uri songUri= MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
-
-        Cursor songCursor = contentResolver.query(songUri, null, null, null, null);
-        if (songCursor != null && songCursor.moveToFirst()) {
-
-            int indexTitle = songCursor.getColumnIndex(MediaStore.Audio.Media.TITLE);
-            int indexArtist= songCursor.getColumnIndex(MediaStore.Audio.Media.ARTIST);
-            int indexData = songCursor.getColumnIndex(MediaStore.Audio.Media.DATA);
-
-            do {
-                String title = songCursor.getString(indexTitle);
-                String artist = songCursor.getString(indexArtist);
-                String path = songCursor.getString(indexData);
-                songArrayList.add(new Song(title, artist, path));
-            } while (songCursor.moveToNext());
-        }
-
-        songsAdapter.notifyDataSetChanged();
+        return musicfileobject;
     }
 }

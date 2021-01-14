@@ -5,54 +5,31 @@
     android:id="@+id/menu_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2B2B2B"
+    android:background="#000000"
     tools:context=".MainActivity">
 
+    <View
+        android:id="@+id/group_24"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/group_24" />
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_below="@id/group_24"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_list_view_home">
 
         <View
-            android:id="@+id/group_24"
             android:layout_width="fill_parent"
-            android:layout_height="400dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="@drawable/group_24" />
-        <LinearLayout
-            android:layout_marginTop="-50dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/bg">
-
-            <View
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="5dp"
-                android:layout_gravity="center"
-                android:layout_width="18dp"
-                android:layout_height="2dp"
-                android:background="@drawable/vector8" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
-                android:text="PLAYLIST"
-                android:textSize="13sp"
-                android:textColor="@color/white"
-                android:fontFamily="@font/casanova_scotia"
-                android:shadowColor="#000000"
-                android:shadowDy="4"
-                android:shadowRadius="4"
-                android:paddingStart="30dp"
-                android:paddingBottom="10dp"
-                />
-
+            android:layout_height="40dp"
+            />
             <ListView
-                android:id="@+id/lvSongs"
+
+                android:id="@+id/listView"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:paddingStart="15dp"
@@ -63,12 +40,9 @@
                 android:divider="#00FFFFFF"
                 android:dividerHeight="10.0sp"
                 />
+
         </LinearLayout>
 
-
-
-
-    </LinearLayout>
 
     <TextView
         android:id="@+id/tvTitle"
@@ -81,26 +55,14 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="89dp"/>
 
-    <TextView
-        android:id="@+id/tvArtist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="nama band"
-        android:gravity="center"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="27dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="69dp"/>
-
     <View
         android:id="@+id/pause"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="75dp"
-        android:layout_marginBottom="75dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="82dp"
         android:background="@drawable/ic_baseline_pause_24"
         android:backgroundTint="@color/white"
         android:elevation="4dp"
@@ -108,12 +70,12 @@
 
     <View
         android:id="@+id/next"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="75dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="82dp"
         android:background="@drawable/ic_baseline_skip_next_24"
         android:backgroundTint="@color/white"
         android:elevation="4dp"
@@ -121,9 +83,8 @@
     <View
         android:id="@+id/pop_up_play"
         android:layout_width="fill_parent"
-        android:layout_height="70dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="60dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/Bottom_Navigation"
         android:background="#2F3030"
         />
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -133,7 +94,6 @@
         app:backgroundTint="@color/bg_main_bar"
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
-        android:paddingBottom="-10dp"
         app:menu="@menu/menu_navigation"
         android:layout_alignParentBottom="true" />
 </RelativeLayout>

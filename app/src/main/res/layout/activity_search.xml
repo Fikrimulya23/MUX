@@ -80,7 +80,7 @@
             <ListView
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
-                android:id="@+id/lvSongs"
+                android:id="@+id/listView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:divider="#00FFFFFF"
@@ -97,7 +97,6 @@
         app:backgroundTint="@color/bg_main_bar"
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
-        android:paddingBottom="-10dp"
         app:menu="@menu/menu_navigation"
         android:layout_alignParentBottom="true" />
 
