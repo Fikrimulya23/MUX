@@ -11,12 +11,13 @@
     <View
         android:id="@+id/group_24"
         android:layout_width="fill_parent"
-        android:layout_height="350dp"
+        android:layout_height="370dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/group_24" />
 
     <LinearLayout
+        android:layout_marginTop="-20dp"
         android:layout_below="@id/group_24"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -104,14 +105,14 @@
 <!--        />-->
 
     <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:id="@+id/btnAbout"
         android:src="@drawable/ic_baseline_live_help_24"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"/>
 
     <FrameLayout
         android:id="@+id/frame_layout"

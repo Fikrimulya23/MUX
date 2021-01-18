@@ -24,9 +24,6 @@
     <style name="nav">
         <item name="backgroundTint">@color/bg_main_bar_light</item>
     </style>
-    <style name="splash">
-        <item name="android:background">@color/primary</item>
-    </style>
     <style name="field">
         <item name="android:background">@drawable/field_song</item>
     </style>
