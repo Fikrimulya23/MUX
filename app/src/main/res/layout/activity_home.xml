@@ -62,50 +62,58 @@
 
     </LinearLayout>
 
-    <View
-        android:id="@+id/pop_up_play"
-        android:layout_width="fill_parent"
-        android:layout_height="80dp"
-        android:layout_above="@id/Bottom_Navigation"
-        android:background="#2F3030"
-        />
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="JUDUL LAGU"
-        android:textColor="@color/white"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        android:layout_marginStart="25dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"/>
+<!--    <TextView-->
+<!--        android:id="@+id/tvTitle"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Find Us"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="17sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="100dp"/>-->
 
-    <View
-        android:id="@+id/pause"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="82dp"
-        android:background="@drawable/ic_baseline_pause_24"
-        android:backgroundTint="@color/white"
-        android:elevation="4dp"
-        />
+<!--    <View-->
+<!--        android:id="@+id/pause"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginRight="100dp"-->
+<!--        android:layout_marginBottom="82dp"-->
+<!--        android:background="@drawable/ic_baseline_pause_24"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:elevation="4dp"-->
+<!--        />-->
 
-    <View
-        android:id="@+id/next"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+<!--    <View-->
+<!--        android:id="@+id/next"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:layout_marginBottom="82dp"-->
+<!--        android:background="@drawable/ic_baseline_skip_next_24"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:elevation="4dp"-->
+<!--        />-->
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnAbout"
+        android:src="@drawable/ic_baseline_live_help_24"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="82dp"
-        android:background="@drawable/ic_baseline_skip_next_24"
-        android:backgroundTint="@color/white"
-        android:elevation="4dp"
-        />
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="fill_parent"

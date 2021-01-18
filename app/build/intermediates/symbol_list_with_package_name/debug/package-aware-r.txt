@@ -1573,6 +1573,8 @@ drawable favorite_on
 drawable field_song
 drawable group_24
 drawable ic_about
+drawable ic_baseline_close_24
+drawable ic_baseline_live_help_24
 drawable ic_baseline_pause_24
 drawable ic_baseline_pause_circle_filled_24_white
 drawable ic_baseline_play_arrow_24
@@ -1746,6 +1748,8 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnAbout
+id btnBackFragment
 id btnFavorite
 id btnNext
 id btnPlay
@@ -1829,6 +1833,7 @@ id fixed
 id flip
 id floating
 id forever
+id frame_layout
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1905,7 +1910,6 @@ id music_imgs
 id muxkaset
 id navigation_header_container
 id never
-id next
 id noScroll
 id none
 id normal
@@ -1924,11 +1928,9 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
-id pause
 id peekHeight
 id percent
 id pin
-id pop_up_play
 id position
 id postLayout
 id progress_circular
@@ -2138,6 +2140,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_about
 layout item_song
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

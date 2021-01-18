@@ -55,7 +55,7 @@
         android:layout_marginBottom="59dp"
         />
 
-    <Button
+    <ImageView
         android:id="@+id/btnShuffle"
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -65,7 +65,7 @@
         android:layout_marginLeft="100dp"
         android:background="@drawable/shuffle"/>
 
-    <Button
+    <ImageView
         android:id="@+id/btnFavorite"
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -74,7 +74,7 @@
         android:layout_marginBottom="210dp"
         android:background="@drawable/favorite"/>
 
-    <Button
+    <ImageView
         android:id="@+id/btnRepeat"
         android:layout_width="20dp"
         android:layout_height="20dp"

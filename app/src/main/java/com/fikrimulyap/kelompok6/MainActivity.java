@@ -1,6 +1,7 @@
 package com.fikrimulyap.kelompok6;
 
 import android.Manifest;
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
@@ -8,10 +9,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.karumi.dexter.Dexter;
@@ -24,6 +28,8 @@ import com.karumi.dexter.listener.single.PermissionListener;
 import java.io.File;
 import java.util.ArrayList;
 
+import android.app.FragmentManager;
+
 //import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,8 +38,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayAdapter<String> musicArrayAdapter; // Adapter for music list
     String songs[]; // to storage song names;
     ArrayList<File> musics;
-
-
+    ImageView about;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,8 +134,33 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }).check();
-    }
 
+        androidx.fragment.app.FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        about = findViewById(R.id.btnAbout);
+        about.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // load First Fragment
+//                fragmentAbout fragment = new fragmentAbout();
+//                fragmentTransaction.add(R.id.frame_layout, fragment);
+//                fragmentTransaction.commit();
+
+                fragmentAbout newFragment = new fragmentAbout();
+                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+
+                // Replace whatever is in the fragment_container view with this fragment,
+                // and add the transaction to the back stack
+                transaction.replace(R.id.frame_layout, newFragment);
+                transaction.addToBackStack(null);
+
+                // Commit the transaction
+                transaction.commit();
+            }
+        });
+    }
 
     // creating an arraylist for music files available on sotrage
 

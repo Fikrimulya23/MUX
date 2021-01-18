@@ -4,6 +4,9 @@ com/fikrimulyap/kelompok6/SplashScreen.java
 com/fikrimulyap/kelompok6/MusicPlayerActivity.java
  com.fikrimulyap.kelompok6.MusicPlayerActivity
  com.fikrimulyap.kelompok6.MusicPlayerActivity$1
+ com.fikrimulyap.kelompok6.MusicPlayerActivity$10
+ com.fikrimulyap.kelompok6.MusicPlayerActivity$11
+ com.fikrimulyap.kelompok6.MusicPlayerActivity$12
  com.fikrimulyap.kelompok6.MusicPlayerActivity$2
  com.fikrimulyap.kelompok6.MusicPlayerActivity$3
  com.fikrimulyap.kelompok6.MusicPlayerActivity$4
@@ -21,6 +24,9 @@ com/fikrimulyap/kelompok6/Search.java
  com.fikrimulyap.kelompok6.Search$2$1
 com/fikrimulyap/kelompok6/BuildConfig.java
  com.fikrimulyap.kelompok6.BuildConfig
+com/fikrimulyap/kelompok6/fragmentAbout.java
+ com.fikrimulyap.kelompok6.fragmentAbout
+ com.fikrimulyap.kelompok6.fragmentAbout$1
 com/fikrimulyap/kelompok6/MyListAdapter.java
  com.fikrimulyap.kelompok6.MyListAdapter
 com/fikrimulyap/kelompok6/SettingActivity.java
@@ -31,3 +37,4 @@ com/fikrimulyap/kelompok6/MainActivity.java
  com.fikrimulyap.kelompok6.MainActivity$1
  com.fikrimulyap.kelompok6.MainActivity$2
  com.fikrimulyap.kelompok6.MainActivity$2$1
+ com.fikrimulyap.kelompok6.MainActivity$3

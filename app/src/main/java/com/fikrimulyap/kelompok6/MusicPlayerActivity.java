@@ -1,18 +1,22 @@
 package com.fikrimulyap.kelompok6;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
@@ -25,7 +29,7 @@ import java.util.ArrayList;
 public class MusicPlayerActivity extends AppCompatActivity {
 
     Bundle songExtraData; // in order to get the values from previous activity
-    ImageView prev,play, next, back;
+    ImageView prev,play, next, back, shuffle, repeat, favorite;
     int position;
     SeekBar mSeekBarTime;
     static MediaPlayer mMediaPlayer; // if not static then two or more than two songs will be played at the same time
@@ -38,6 +42,8 @@ public class MusicPlayerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // casting views
+        Context context = getApplicationContext();
+        int duration = Toast.LENGTH_SHORT;
 
         prev = findViewById(R.id.btnPrev);
         play = findViewById(R.id.btnPlay);
@@ -45,7 +51,9 @@ public class MusicPlayerActivity extends AppCompatActivity {
         mSeekBarTime = findViewById(R.id.seekBarTime);
         songName  = findViewById(R.id.tvTitle);
         back  = findViewById(R.id.btnback);
-
+        shuffle  = findViewById(R.id.btnShuffle);
+        repeat  = findViewById(R.id.btnRepeat);
+        favorite  = findViewById(R.id.btnFavorite);
         // when the activity launches mediaplayer should be on stop
 
         if (mMediaPlayer != null) {
@@ -64,6 +72,32 @@ public class MusicPlayerActivity extends AppCompatActivity {
                 finish();
 
                 //menggunakan intent untuk berpindah ke activity sebelumnya
+            }
+        });
+
+        shuffle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(context, "shuffle", duration);
+                toast.setGravity(Gravity.BOTTOM| Gravity.CENTER_HORIZONTAL, 0, 400);
+                toast.show();
+            }
+        });
+        repeat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(context, "repeat", duration);
+                toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, 400);
+                toast.show();
+            }
+        });
+
+        favorite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(context, "favorite", duration);
+                toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, 400);
+                toast.show();
             }
         });
 
@@ -253,6 +287,18 @@ public class MusicPlayerActivity extends AppCompatActivity {
             // if mediaplayer is playing // the image of play button should display pause
             play.setImageResource(R.drawable.ic_baseline_pause_circle_filled_24_white);
 
+        }
+    }
+
+    // Call Back method  to get the Message form other Activity
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        super.onActivityResult(requestCode, resultCode, data);
+        // check if the request code is same as what is passed  here it is 2
+        if(requestCode == 2)
+        {
+            //do the things u wanted
         }
     }
 }
