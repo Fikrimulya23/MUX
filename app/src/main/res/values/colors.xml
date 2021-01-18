@@ -12,5 +12,7 @@
     <color name="main_bar_active">#77B2F6</color>
     <color name="main_bar_no_active">#9D9797</color>
     <color name="bg_main_bar">#221111</color>
+    <color name="bg_main_bar_light">#F2F4F8</color>
+    <color name="primary_light">#F9F9F9</color>
 
 </resources>

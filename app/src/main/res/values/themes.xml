@@ -7,4 +7,28 @@
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="bg">
+        <item name="android:background">@drawable/bg_light</item>
+    </style>
+    <style name="line">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/line_light</item>
+    </style>
+    <style name="title">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+    <style name="list">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="nav">
+        <item name="backgroundTint">@color/bg_main_bar_light</item>
+    </style>
+    <style name="splash">
+        <item name="android:background">@color/primary</item>
+    </style>
+    <style name="field">
+        <item name="android:background">@drawable/field_song</item>
+    </style>
+
 </resources>

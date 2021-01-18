@@ -13,6 +13,7 @@ import android.widget.SearchView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.karumi.dexter.Dexter;
@@ -29,6 +30,7 @@ import java.util.ArrayList;
 
 public class Search extends AppCompatActivity {
 
+    savesharepref pref;
     ListView allMusicList; // listVIEW
     ArrayAdapter<String> musicArrayAdapter; // Adapter for music list
     String songs[]; // to storage song names;
@@ -39,6 +41,16 @@ public class Search extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+
+        pref = new savesharepref(this);
+
+        if(pref.getstate() ==true){
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
+        else{
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+
+        }
 
         // casting listview
         allMusicList = findViewById(R.id.listView);

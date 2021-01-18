@@ -11,13 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_mux_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kelompok6">
-
+        <activity android:name=".About"/>
         <activity android:name=".SettingActivity" />
         <activity android:name=".Search" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".MusicPlayerActivity" />
         <activity android:name=".SplashScreen">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

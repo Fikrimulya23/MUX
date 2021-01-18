@@ -14,6 +14,7 @@ import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -34,6 +35,7 @@ import android.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity {
 
+    savesharepref pref;
     ListView allMusicList; // listVIEW
     ArrayAdapter<String> musicArrayAdapter; // Adapter for music list
     String songs[]; // to storage song names;
@@ -44,6 +46,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        pref = new savesharepref(this);
+
+        if(pref.getstate() ==true){
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
+        else{
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+
+        }
 
         // casting listview
 //        MyListAdapter adapter = new MyListAdapter(this, songs);

@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="80dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/field_song"
+    style="@style/field"
     android:id="@+id/audio_item"
     android:layout_alignParentTop="true"
     android:layout_margin="15dp"
@@ -39,7 +39,7 @@
         android:shadowDy="4"
         android:shadowRadius="4"
         android:text="Song 1"
-        android:textColor="#F1F1F1"
+        style="@style/list"
         android:textSize="17sp"
         android:textStyle="bold" />
 

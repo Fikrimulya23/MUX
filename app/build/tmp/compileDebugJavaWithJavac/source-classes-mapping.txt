@@ -1,3 +1,8 @@
+com/fikrimulyap/kelompok6/About.java
+ com.fikrimulyap.kelompok6.About
+ com.fikrimulyap.kelompok6.About$1
+com/fikrimulyap/kelompok6/savesharepref.java
+ com.fikrimulyap.kelompok6.savesharepref
 com/fikrimulyap/kelompok6/SplashScreen.java
  com.fikrimulyap.kelompok6.SplashScreen
  com.fikrimulyap.kelompok6.SplashScreen$1
@@ -32,6 +37,7 @@ com/fikrimulyap/kelompok6/MyListAdapter.java
 com/fikrimulyap/kelompok6/SettingActivity.java
  com.fikrimulyap.kelompok6.SettingActivity
  com.fikrimulyap.kelompok6.SettingActivity$1
+ com.fikrimulyap.kelompok6.SettingActivity$2
 com/fikrimulyap/kelompok6/MainActivity.java
  com.fikrimulyap.kelompok6.MainActivity
  com.fikrimulyap.kelompok6.MainActivity$1

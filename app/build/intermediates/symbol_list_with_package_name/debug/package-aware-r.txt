@@ -931,6 +931,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color bg_main_bar
+color bg_main_bar_light
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -1080,6 +1081,7 @@ color notification_material_background_media_default_color
 color primary
 color primary_dark_material_dark
 color primary_dark_material_light
+color primary_light
 color primary_material_dark
 color primary_material_light
 color primary_text_default_material_dark
@@ -1550,6 +1552,7 @@ drawable back
 drawable background_play
 drawable background_play2
 drawable bg
+drawable bg_light
 drawable bg_list_view_home
 drawable bg_white
 drawable btn_checkbox_checked_mtrl
@@ -1571,6 +1574,7 @@ drawable ellipse_28
 drawable favorite
 drawable favorite_on
 drawable field_song
+drawable field_song_light
 drawable group_24
 drawable ic_about
 drawable ic_baseline_close_24
@@ -1601,6 +1605,7 @@ drawable icon_settings
 drawable intersect
 drawable layout_list
 drawable line
+drawable line_light
 drawable logo_mux
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1672,6 +1677,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id about
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1854,6 +1860,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -1967,6 +1974,8 @@ id search_plate
 id search_src_text
 id search_view
 id search_voice_btn
+id seekBar
+id seekBar2
 id seekBarTime
 id select_dialog_listview
 id selected
@@ -2003,6 +2012,8 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id switch1
+id switch2
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2022,6 +2033,12 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView1
+id textView2
+id textView3
+id textView4
+id textView6
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2119,10 +2136,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_home
-layout activity_library
 layout activity_main
 layout activity_search
+layout activity_settings
 layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3000,8 +3018,15 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style bg
+style field
+style line
+style list
 style me_too
 style meghan_tain
+style nav
+style splash
+style title
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

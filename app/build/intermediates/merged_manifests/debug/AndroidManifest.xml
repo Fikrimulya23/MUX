@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Kelompok6" >
+        <activity android:name="com.fikrimulyap.kelompok6.About" />
         <activity android:name="com.fikrimulyap.kelompok6.SettingActivity" />
         <activity android:name="com.fikrimulyap.kelompok6.Search" />
         <activity android:name="com.fikrimulyap.kelompok6.MainActivity" />
