@@ -4,10 +4,13 @@ import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SearchView;
 
@@ -35,6 +38,7 @@ public class Search extends AppCompatActivity {
     ArrayAdapter<String> musicArrayAdapter; // Adapter for music list
     String songs[]; // to storage song names;
     ArrayList<File> musics;
+    EditText edt_search;
 
 
     @Override
@@ -52,11 +56,17 @@ public class Search extends AppCompatActivity {
 
         }
 
+
+
+
         // casting listview
         allMusicList = findViewById(R.id.listView);
 
+        edt_search = (EditText) findViewById(R.id.edt_search);
+
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.Bottom_Navigation);
-        ArrayList<Music> musicList = new ArrayList<>();
+//        ArrayList<Music> musicList = new ArrayList<>();
         //set home selected
         bottomNavigationView.setSelectedItemId(R.id.search);
 
@@ -72,13 +82,13 @@ public class Search extends AppCompatActivity {
                     case R.id.home:
                         startActivity(new Intent(getApplicationContext(),
                                 MainActivity.class));
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
                         return true;
 
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext(),
                                 SettingActivity.class));
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                         return true;
                 }
 
@@ -96,16 +106,37 @@ public class Search extends AppCompatActivity {
                 songs = new String[musics.size()];
                 for (int i = 0; i < musics.size(); i++) {
                     songs[i] = musics.get(i).getName();
-                    musicList.add(new Music(songs[i]));
+//                    musicList.add(new Music(songs[i]));
                 }
-                MyListAdapter adapter = new MyListAdapter(getApplicationContext(),musicList);
+                //MyListAdapter adapter = new MyListAdapter(getApplicationContext(),musicList);
 
                 // here you are passing songs in the adapter;
-                musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, songs);
+                //musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, songs);
                 //setting the adapter on listview
 
-//                allMusicList.setAdapter(musicArrayAdapter);
-                allMusicList.setAdapter(adapter);
+                musicArrayAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.item_song, R.id.tvTitle, songs);
+
+                allMusicList.setAdapter(musicArrayAdapter);
+
+                //search atas
+                edt_search.addTextChangedListener(new TextWatcher() {
+                    @Override
+                    public void onTextChanged(CharSequence cs, int arg1, int arg2, int arg3) {
+                        // When user changed the Text
+                        Search.this.musicArrayAdapter.getFilter().filter(cs);
+                    }
+                    @Override
+                    public void beforeTextChanged(CharSequence arg0, int arg1, int arg2,
+                                                  int arg3) {
+                        // TODO Auto-generated method stub
+
+                    }
+                    @Override
+                    public void afterTextChanged(Editable arg0) {
+                        // TODO Auto-generated method stub
+                    }
+                });
+//search bawah
 
                 allMusicList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override

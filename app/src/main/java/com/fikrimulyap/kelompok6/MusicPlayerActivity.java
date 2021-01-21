@@ -40,6 +40,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        overridePendingTransition(R.anim.slide_in_bottom,R.anim.slide_out_top);
 
         // casting views
         Context context = getApplicationContext();
@@ -69,6 +70,8 @@ public class MusicPlayerActivity extends AppCompatActivity {
 //                startActivity(moveWithDataIntent);
 
                 startActivity(new Intent(MusicPlayerActivity.this, MainActivity.class));
+//                overridePendingTransition(R.anim.slide_in_top,R.anim.slide_out_bottom);
+
                 finish();
 
                 //menggunakan intent untuk berpindah ke activity sebelumnya

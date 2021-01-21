@@ -30,6 +30,14 @@ anim design_snackbar_out
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim slide_in_bottom
+anim slide_in_left
+anim slide_in_right
+anim slide_in_top
+anim slide_out_bottom
+anim slide_out_left
+anim slide_out_right
+anim slide_out_top
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1577,6 +1585,7 @@ drawable field_song
 drawable field_song_light
 drawable group_24
 drawable ic_about
+drawable ic_baseline_arrow_back_ios_24
 drawable ic_baseline_close_24
 drawable ic_baseline_live_help_24
 drawable ic_baseline_pause_24
@@ -1822,6 +1831,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edt_search
 id end
 id end_padder
 id enterAlways
@@ -1972,7 +1982,6 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
-id search_view
 id search_voice_btn
 id seekBar
 id seekBar2

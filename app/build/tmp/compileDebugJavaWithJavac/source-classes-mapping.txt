@@ -22,18 +22,19 @@ com/fikrimulyap/kelompok6/MusicPlayerActivity.java
  com.fikrimulyap.kelompok6.MusicPlayerActivity$9
 com/fikrimulyap/kelompok6/Music.java
  com.fikrimulyap.kelompok6.Music
-com/fikrimulyap/kelompok6/Search.java
- com.fikrimulyap.kelompok6.Search
- com.fikrimulyap.kelompok6.Search$1
- com.fikrimulyap.kelompok6.Search$2
- com.fikrimulyap.kelompok6.Search$2$1
+com/fikrimulyap/kelompok6/MyListAdapter.java
+ com.fikrimulyap.kelompok6.MyListAdapter
 com/fikrimulyap/kelompok6/BuildConfig.java
  com.fikrimulyap.kelompok6.BuildConfig
 com/fikrimulyap/kelompok6/fragmentAbout.java
  com.fikrimulyap.kelompok6.fragmentAbout
  com.fikrimulyap.kelompok6.fragmentAbout$1
-com/fikrimulyap/kelompok6/MyListAdapter.java
- com.fikrimulyap.kelompok6.MyListAdapter
+com/fikrimulyap/kelompok6/Search.java
+ com.fikrimulyap.kelompok6.Search
+ com.fikrimulyap.kelompok6.Search$1
+ com.fikrimulyap.kelompok6.Search$2
+ com.fikrimulyap.kelompok6.Search$2$1
+ com.fikrimulyap.kelompok6.Search$2$2
 com/fikrimulyap/kelompok6/SettingActivity.java
  com.fikrimulyap.kelompok6.SettingActivity
  com.fikrimulyap.kelompok6.SettingActivity$1

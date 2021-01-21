@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+//        overridePendingTransition(R.anim.slide_in_top,R.anim.slide_out_bottom);
 
         pref = new savesharepref(this);
 
@@ -76,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.search:
                         startActivity(new Intent(getApplicationContext(),
                                 Search.class));
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                         return true;
 
                     case R.id.home:
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.settings:
                         startActivity(new Intent(getApplicationContext(),
                                 SettingActivity.class));
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                         return true;
                 }
 

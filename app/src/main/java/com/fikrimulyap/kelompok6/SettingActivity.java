@@ -86,13 +86,13 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
                     case R.id.search:
                         startActivity(new Intent(getApplicationContext(),
                                 Search.class));
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
                         return true;
 
                     case R.id.home:
                         startActivity(new Intent(getApplicationContext(),
                                 MainActivity.class));
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
                         return true;
 
                     case R.id.settings:

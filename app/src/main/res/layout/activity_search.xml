@@ -25,7 +25,7 @@
             android:textAlignment="center"
             android:textSize="18sp" />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:paddingTop="8dp"
@@ -34,15 +34,23 @@
             android:paddingRight="5dp"
             >
 
-            <SearchView
-                android:background="@drawable/search_bg"
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_bg" />
+
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/search_view"
-                android:iconifiedByDefault="false"
-                android:queryHint="Search"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/edt_search"
+                android:iconifiedByDefault="true"
+                android:hint="Search"
+                style="@style/list"
                 />
-        </LinearLayout>
+
+        </RelativeLayout>
 
         <LinearLayout
             android:id="@+id/asd"

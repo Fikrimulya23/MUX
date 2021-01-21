@@ -7,18 +7,22 @@ import androidx.appcompat.app.AppCompatDelegate;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class About extends AppCompatActivity {
 
     savesharepref pref;
+    ImageView back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
-
+//        overridePendingTransition(R.anim.slide_in_top,R.anim.slide_out_bottom);
+        back  = findViewById(R.id.btnback);
         pref = new savesharepref(this);
 
         if(pref.getstate() ==true){
@@ -29,42 +33,20 @@ public class About extends AppCompatActivity {
 
         }
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.Bottom_Navigation);
+        back.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
 
-        //set home selected
-        bottomNavigationView.setSelectedItemId(R.id.settings);
+                // TODO Auto-generated method stub
+//                Intent moveWithDataIntent = new Intent(MusicPlayerActivity.this, MainActivity.class);
+//                moveWithDataIntent.putExtra(MusicPlayerActivity.musicPlayer);
+//                startActivity(moveWithDataIntent);
 
-        //perform itemselectedlistener
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener()
-        {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                startActivity(new Intent(About.this, SettingActivity.class));
+//                overridePendingTransition(R.anim.slide_in_top,R.anim.slide_out_bottom);
 
-                switch (item.getItemId()){
-                    case R.id.search:
-                        startActivity(new Intent(getApplicationContext(),
-                                Search.class));
-                        overridePendingTransition(0,0);
-                        return true;
+                finish();
 
-                    case R.id.home:
-                        startActivity(new Intent(getApplicationContext(),
-                                MainActivity.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-                    case R.id.settings:
-                        startActivity(new Intent(getApplicationContext(),
-                                SettingActivity.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-                    case R.id.about:
-                        return true;
-
-                }
-
-                return false;
+                //menggunakan intent untuk berpindah ke activity sebelumnya
             }
         });
     }

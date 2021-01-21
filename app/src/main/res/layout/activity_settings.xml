@@ -111,7 +111,7 @@
         android:layout_width="fill_parent"
         android:layout_height="70dp"
         android:id="@+id/Bottom_Navigation"
-        app:backgroundTint="@color/bg_main_bar"
+        style="@style/nav"
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
         android:paddingBottom="-10dp"
